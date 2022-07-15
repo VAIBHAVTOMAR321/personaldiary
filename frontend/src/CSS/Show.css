@@ -1,0 +1,16 @@
+.show{
+    display: flex;
+    flex-direction: column;
+    margin :10px;
+    border: 4px solid black;
+    border-radius: 10px;
+
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+
+}
+
+.show>*{
+    margin: 10px;
+}

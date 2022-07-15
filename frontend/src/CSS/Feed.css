@@ -1,0 +1,51 @@
+.feed{
+    width: 100%;
+}
+.form{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form >*{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.form input,.form textarea{
+    outline: none;
+    border: 0px solid black;
+    padding: 12px;
+    background-color: whitesmoke;
+    border-radius: 0px;
+    height: 20px;
+    width: 80vw;
+}
+.form textarea{
+    height: 300px;
+    resize: none;
+}
+
+.form label{
+    font-size: 20px;
+
+    width: 10vw
+}
+
+.form button{
+    align-self:flex-start;
+    width: 200px;
+    padding: 14px;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 275px;
+}
+
+.box>*{
+    margin: 0px 10px;
+}
